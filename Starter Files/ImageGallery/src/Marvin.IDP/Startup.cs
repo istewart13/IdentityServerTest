@@ -31,6 +31,12 @@ namespace Marvin.IDP
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddIdentityServer()
+            .AddDeveloperSigningCredential()
+            .AddTestUsers(Config.GetUsers())
+            .AddInMemoryIdentityResources(Config.GetIdentityResources())
+            .AddInMemoryClients(Config.GetClients());
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
