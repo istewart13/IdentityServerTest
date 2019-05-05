@@ -59,6 +59,8 @@ namespace Marvin.IDP
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
+            app.UseIdentityServer();
+
             app.UseMvc();
         }
     }
