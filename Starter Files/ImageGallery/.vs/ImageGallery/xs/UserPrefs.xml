@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{06D1048B-31A1-4FAA-BDDE-B098EBADAF85}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.ImageGallery.Client PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.src.Marvin.IDP FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
